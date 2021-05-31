@@ -1,0 +1,26 @@
+div {display: inline-block;} 
+
+
+.circle {
+	width: 50px;
+	height: 30px;
+	background-color: red;
+	border-radius: 50%;
+border-left: solid 10px gray;
+border-bottom: solid 10px gray;
+
+		
+}
+.box {width: 50px;
+	height: 30px;
+	background-color: white;
+	border-radius: 50%;}
+
+.circle1 {
+	width: 50px;
+	height: 30px;
+	background-color: red;
+	border-radius: 50%;
+border-left: solid 10px gray;
+border-bottom: solid 10px gray;
+}
