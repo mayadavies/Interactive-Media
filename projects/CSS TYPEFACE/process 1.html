@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Process 1</title>
+        <style>
+        	/* this is a comment in CSS. MOVE THIS STYLE TO A SEPARATE FILE */
+
+
+        	.letter {
+
+        		width:200px; /*resize as you see fit */
+        		height:300px; /*resize as you see fit */
+        		display:inline-block; /* this makes block level elements act like letters (so they sit next to eachother) */
+        		border:1px solid #000; /*feel free to remove or hide this rule */
+        		position:relative; /* IMPORTANT: any element with position:absolute inside this container will now be relative to bounds of this element; */
+        	}
+        		.grid {
+        		position: absolute;
+        		display: grid;
+        		grid-template-columns: repeat(5,20%);
+        		grid-template-rows: repeat(5,20%);
+        		width: 100%;
+        		height: 100%;
+        		background-color: transparent;
+
+        	}
+
+        	.grid-item {
+        		width: 100%;
+        		height: 100%;
+        		border: 1px solid bl;
+        	}
+        	.black-box {
+        	        width: 100%;
+        	        height: 100%;
+        	        background-color: red;}
+        	      
+            .curvyleft {
+                     width: 100%;
+                    height: 100%;
+                    background-color: red;
+                    border-radius: 100px 10px 10px 100px; }
+            .curvyright {
+                     width: 100%;
+                    height: 100%;
+                    background-color: red;
+                    border-radius: 10px 100px 10px 10px; }
+
+
+         .curvyboth {
+                     width: 100%;
+                    height: 100%;
+                    background-color: red;
+                    border-radius: 10px 100px 100px 10px; }
+
+
+    <br/>
+  
+        </style>
+    </head>
+    <body>
+    	<!--this is a comment in html-->
+    	<div class="letter letter-a"> 
+    	<div class="grid">
+    		<div class="grid-item curvyleft"></div>
+    		<div class="grid-item black-box"></div>
+    		<div class="grid-item black-box"></div>
+    		<div class="grid-item black-box"></div>
+    		<div class="grid-item curvyright"></div>
+
+    		<div class="grid-item "></div>
+    		<div class="grid-item black-box"></div>
+    		<div class="grid-item"></div>
+    		<div class="grid-item"></div>
+    		<div class="grid-item black-box"></div>
+
+    		<div class="grid-item "></div>
+    		<div class="grid-item black-box"></div>
+    		<div class="grid-item black-box"></div>
+    		<div class="grid-item black-box"></div>
+    		<div class="grid-item black-box"></div>
+
+    		<div class="grid-item "></div>
+    		<div class="grid-item black-box"></div>
+    		<div class="grid-item"></div>
+    		<div class="grid-item"></div>
+    		<div class="grid-item black-box"></div>
+
+    		<div class="grid-item curvyleft"></div>
+    		<div class="grid-item black-box"></div>
+    		<div class="grid-item"></div>
+    		<div class="grid-item curvyleft"></div>
+    		<div class="grid-item black-box"></div>
+
+    	</div>   		
+    	</div>
+
+		<div class="letter letter-b"> 
+		<div class="grid">
+    		<div class="grid-item curvyleft"></div>
+    		<div class="grid-item black-box"></div>
+    		<div class="grid-item black-box"></div>
+    		<div class="grid-item black-box"></div>
+    		<div class="grid-item curvyright "></div>
+
+    		<div class="grid-item "></div>
+    		<div class="grid-item black-box"></div>
+    		<div class="grid-item"></div>
+    		<div class="grid-item"></div>
+    		<div class="grid-item black-box"></div>
+
+    		<div class="grid-item "></div>
+    		<div class="grid-item black-box"></div>
+    		<div class="grid-item black-box"></div>
+    		<div class="grid-item black-box"></div>
+    		<div class="grid-item curvyboth"></div>
+
+    		<div class="grid-item "></div>
+    		<div class="grid-item black-box"></div>
+    		<div class="grid-item"></div>
+    		<div class="grid-item"></div>
+    		<div class="grid-item black-box"></div>
+
+    		<div class="grid-item curvyleft"></div>
+    		<div class="grid-item black-box"></div>
+    		<div class="grid-item black-box"></div>
+    		<div class="grid-item black-box"></div>
+    		<div class="grid-item black-box"></div>
+
+    	</div>   		   		
+    	</div>
+
+    	<div class="letter letter-c"> 
+    	<div class="grid">
+    		<div class="grid-item curvyleft"></div>
+    		<div class="grid-item black-box"></div>
+    		<div class="grid-item black-box"></div>
+    		<div class="grid-item black-box"></div>
+    		<div class="grid-item curvyright"></div>
+
+    		<div class="grid-item "></div>
+    		<div class="grid-item black-box"></div>
+    		<div class="grid-item"></div>
+    		<div class="grid-item"></div>
+    		<div class="grid-item black-box"></div>
+
+    		<div class="grid-item "></div>
+    		<div class="grid-item black-box"></div>
+    		<div class="grid-item"></div>
+    		<div class="grid-item"></div>
+    		<div class="grid-item"></div>
+
+    		<div class="grid-item "></div>
+    		<div class="grid-item black-box"></div>
+    		<div class="grid-item"></div>
+    		<div class="grid-item"></div>
+    		<div class="grid-item black-box"></div>
+
+    		<div class="grid-item black-box"></div>
+    		<div class="grid-item black-box"></div>
+    		<div class="grid-item black-box"></div>
+    		<div class="grid-item black-box"></div>
+    		<div class="grid-item black-box"></div>
+
+    	</div>     		
+    	</div>
+
+		<div class="letter letter-d"> 
+		<div class="grid">
+    		<div class="grid-item black-box"></div>
+    		<div class="grid-item black-box"></div>
+    		<div class="grid-item black-box"></div>
+    		<div class="grid-item black-box"></div>
+    		<div class="grid-item"></div>
+
+    		<div class="grid-item black-box"></div>
+    		<div class="grid-item black-box"></div>
+    		<div class="grid-item"></div>
+    		<div class="grid-item"></div>
+    		<div class="grid-item black-box"></div>
+
+    		<div class="grid-item black-box"></div>
+    		<div class="grid-item black-box"></div>
+    		<div class="grid-item"></div>
+    		<div class="grid-item"></div>
+    		<div class="grid-item black-box"></div>
+
+    		<div class="grid-item black-box"></div>
+    		<div class="grid-item black-box"></div>
+    		<div class="grid-item"></div>
+    		<div class="grid-item"></div>
+    		<div class="grid-item black-box"></div>
+
+    		<div class="grid-item black-box"></div>
+    		<div class="grid-item black-box"></div>
+    		<div class="grid-item black-box"></div>
+    		<div class="grid-item black-box"></div>
+    		<div class="grid-item"></div>
+
+    	</div>     		   		
+    	</div>
+
+    	<div class="letter letter-e"> 
+    		<div class="grid">
+    		<div class="grid-item black-box"></div>
+    		<div class="grid-item black-box"></div>
+    		<div class="grid-item black-box"></div>
+    		<div class="grid-item black-box"></div>
+    		<div class="grid-item black-box"></div>
+
+    		<div class="grid-item black-box"></div>
+    		<div class="grid-item black-box"></div>
+    		<div class="grid-item"></div>
+    		<div class="grid-item"></div>
+    		<div class="grid-item"></div>
+
+    		<div class="grid-item black-box"></div>
+    		<div class="grid-item black-box"></div>
+    		<div class="grid-item black-box"></div>
+    		<div class="grid-item black-box"></div>
+    		<div class="grid-item"></div>
+
+    		<div class="grid-item black-box"></div>
+    		<div class="grid-item black-box"></div>
+    		<div class="grid-item"></div>
+    		<div class="grid-item"></div>
+    		<div class="grid-item"></div>
+
+    		<div class="grid-item black-box"></div>
+    		<div class="grid-item black-box"></div>
+    		<div class="grid-item black-box"></div>
+    		<div class="grid-item black-box"></div>
+    		<div class="grid-item black-box"></div>
+
+    	</div>     		
+    	</div>
+
+		<div class="letter letter-f">  
+            <div class="grid">
+            <div class="grid-item black-box"></div>
+            <div class="grid-item black-box"></div>
+            <div class="grid-item black-box"></div>
+            <div class="grid-item black-box"></div>
+            <div class="grid-item black-box"></div>
+
+            <div class="grid-item black-box"></div>
+            <div class="grid-item black-box"></div>
+            <div class="grid-item"></div>
+            <div class="grid-item"></div>
+            <div class="grid-item"></div>
+
+            <div class="grid-item black-box"></div>
+            <div class="grid-item black-box"></div>
+            <div class="grid-item black-box"></div>
+            <div class="grid-item black-box"></div>
+            <div class="grid-item"></div>
+
+            <div class="grid-item black-box"></div>
+            <div class="grid-item black-box"></div>
+            <div class="grid-item"></div>
+            <div class="grid-item"></div>
+            <div class="grid-item"></div>
+
+            <div class="grid-item black-box"></div>
+            <div class="grid-item black-box"></div>
+            <div class="grid-item "></div>
+            <div class="grid-item "></div>
+            <div class="grid-item "></div>  		
+    	</div>
+    </div>
