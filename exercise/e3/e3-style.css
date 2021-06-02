@@ -1,0 +1,145 @@
+body {
+	background: black;
+	font-size: 40px;
+}
+
+
+/*illumnate start*/
+h1 {color: white;}
+
+@keyframes light {
+from {
+		color: gray;
+			  transition-duration: 2s;
+			
+	}
+
+	to {
+		color: yellow;
+		  transition-duration: 2s; }
+		
+		
+}
+.illuminate {
+	font-family: talon, helvetica sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: gray;}
+
+
+
+.i { 
+	transition: color: 500ms;
+
+ }
+
+.i:hover {
+	color: yellow;
+	animation-name: light 1s  alternate;
+
+}
+.l:hover {
+	color: yellow;
+}
+.l2:hover {
+	color: yellow;
+}
+.u:hover {
+	color: yellow;
+}
+.m:hover {
+	color: yellow;
+}
+
+.i2:hover {
+	color: yellow;
+}
+
+
+.n:hover {
+	color: yellow;
+}
+
+.a:hover {
+	color: yellow;
+}
+
+.t:hover {
+	color: yellow;
+}
+
+.e:hover {
+	color: yellow;
+}
+
+
+/*end of illuminate*/
+
+/*animations*/
+@keyframes flash{
+
+	from {
+		color: red;
+		transform: translateX(0px);}
+	25% { color: blue;
+		transform: translateX(5px);}
+	
+50% { color: red;
+		transform: translateX(0px);}
+	75% { color: blue;
+		transform: translateX(5px);}
+	to {
+		color: red;
+		transform: translateX(0px);}
+
+	}
+@font-face { 
+	font-family: 'MyWebFont';
+	src: url('MyWebFont.eot');
+	src: url('MyWebFont.eot?#iefix') format('embedded-opentype'),
+	     url('MyWebFont.woff') format('woff'),
+	     url('MyWebFont.ttf') format('truetype'),
+	     url('MyWebFont.svg#webfont') format('svg');
+}
+/* "alert" start*/
+
+.alert {
+	color: white;
+  	font-family:'MyWebFont', Arial, sans-serif; }
+
+
+
+.alert:hover {
+	color; black;
+	animation:flash 1s infinite alternate; }
+
+/* "alert" bends*/
+
+
+/*FLY BEGINS*/
+
+ @keyframes flying-letters {
+ 0% { color: white
+ 	opacity 1; 
+	transform: translateY(0px);
+	transform: translateX(0px);
+
+ }
+ 
+ to {color: pink;
+ 	opacity: 0;
+ 	transform: translateY(-300px);}
+ }
+ .fly {
+ 	color: white;
+ 	font-family: 'Amatic SC',Arial cursive;
+ }
+ .fly:hover {
+	color: white;
+	font-family: 'Amatic SC', Arial, cursive;
+	animation: flying-letters 3s infinite ; }
+
+/*FLY ENDS*/
+
+
+
