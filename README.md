@@ -1,2 +1,2 @@
 # Interactive-Media
-this is a demo for creating github page
+this is for my interactive media class.
