@@ -37,7 +37,7 @@ h2 {
     grid-column-start: 1;
     grid-column-end:2;
 transform: rotate(90deg);
-animation:change 8s infinite alternate;
+animation:changeone 8s infinite alternate;
 
     }
 
@@ -113,7 +113,7 @@ font-weight: 700;
 
 font-style: normal;
 font-size: 2em;
-animation:change 8s infinite alternate;
+animation:changeone 8s infinite alternate;
 }
 h5 {color: #FF8800;
  margin-top: -100px;
@@ -126,7 +126,7 @@ font-weight: 700;
 
 font-style: normal;
 font-size: 2em;
-animation:change 8s infinite alternate;
+animation:changeone 8s infinite alternate;
 }
 
 h6 {  
@@ -250,6 +250,7 @@ animation:movingmore 5s infinite alternate;}
     opacity: 1;}
  }
 
+
  @keyframes moving {
  0% { color: #00FFA1;
     opacity 1; 
@@ -280,6 +281,25 @@ animation:movingmore 5s infinite alternate;}
     opacity: ;
     transform: translateX(0px);}
  }
+
+ @keyframes changeone{
+ 0% { color:#0339f8;
+    opacity 1; 
+
+ }
+
+25% { color: #FF8800;
+    opacity 1; 
+
+ }
+
+ 50% {color: #FF009C;
+
+ }
+ to {color:#00FFA1;
+    opacity: 1;}
+ }
+ 
 
 /* FOR MY DISPLAY FONT START*/
 .minigrid {
