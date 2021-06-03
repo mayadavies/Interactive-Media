@@ -9,69 +9,104 @@ body {
 	margin-right: 100px;
 	margin-bottom: 50px;
 	background: ;
-	font-family: ,sans-serif;
+	font-family: aktiv-grotesk-extended,sans-serif;
 font-weight: 100;
 font-style: normal;
 font-size: 18px;
+display: inline-block;
 }
 
+h1 {color: black;
+  font-family: aktiv-grotesk-extended,sans-serif;
+font-weight: 100;
+font-style: normal;
+font-size: 9.5em;}
 
+h2 {
+  color: black;
+  font-family: aktiv-grotesk-extended,sans-serif;
+font-weight: 100;
+font-style: normal;
+font-size: 9.5em
+}
 
 .grid {
 	display:grid;
 	position: absolute;
-	grid-template-columns: 280px 396px 325px 296px;
-	grid-template-rows: 243px 225px 558px;
-	border: 1px solid transparent;
+	grid-template-columns: 21.8% 30% 25% 23.12%;
+	grid-template-rows: 23.6% 22% 54.4%;
+	border: 1px solid black;
 	height: 1024px;
 	width: 1280px;
 }
 
 /* testing purposes*/
 
+/*
+
+.mygrid-item  {
+    width: 200px;
+    height: 300px;
+    background-color: transparent; ;
+      border: 1px solid black;}
+*/
 
 
-.grid-item  {
-        		width: 50%;
-        		height: 50%;
-                background-color: transparent; ;
-                border: 1px solid black;}
-
-
-
-        		.minigrid {
+        		.grid2 {
         		position: absolute;
         		display: grid;
         		grid-template-columns: repeat(5,20%);
         		grid-template-rows: repeat(5,20%);
-        		width: 16px;
-        		height: 27px;
+        		width: 20px;
+        		height: 30px;
                 border: 1px solid transparent;
                 background-color: transparent;}
 
-        	.minigrid-item {
-        		width: 10px;
-        		height: 10px;
+
+.grid div {
+  border: 1px solid black;}
+
+        	/*.grid-item {
+        		width: 300px;
+        		height: 200px;
                 background-color: transparent; ;
-                border: 1px solid transparent;
+                border: 1px solid transparent; */
 
         	}
 
 
-.content { color: black;
+.header {   
+  padding-top: 5px;
+padding-right: 5px;
+padding-bottom: 5px;
+padding-left:5px;
+color: black;
 font-family: aktiv-grotesk-extended,sans-serif;
 font-weight: 800;
 font-style: normal;
-font-size: 8em;
+font-size: 5em;}
 
 
-}
+
+
+.header2{
+  padding-top: 5px;
+padding-right: 5px;
+padding-bottom: 5px;
+padding-left:5px;
+color: black;
+font-family: aktiv-grotesk-extended,sans-serif;
+font-weight: 800;
+font-style: normal;
+font-size: 2em;}
+
+
 
 
         	.letter {
 
-        		width:; /*resize as you see fit */
-        		height:100%; /*resize as you see fit */
+        		width:1em; /*resize as you see fit */
+        		height:2em; /*resize as you see fit */
         		display:inline-block; /* this makes block level elements act like letters (so they sit next to eachother) */
         		border:1px solid #000; /*feel free to remove or hide this rule */
         		position:relative; /* IMPORTANT: any element with position:absolute inside this container will now be relative to bounds of this element; */
@@ -82,7 +117,7 @@ font-size: 8em;
 
         	
 
-        	}
+        	
     
         	      
             .curvyleft {
@@ -195,35 +230,3 @@ font-size: 8em;
                      box-shadow: rgba(240, 46, 170,- 0.4) -5px 0px, rgba(240, 46, 170, 0.3) 10px 0px, rgba(240, 46, 170, 0.2) -15px 0px, rgba(240, 46, 170, 0.1) -20px 0px, rgba(240, 46, 170, 0.05) -25px 0px; }
     <br/>
 
-
-        	      
-
-
-
-
-    		<div class="grid-item "></div>
-    		<div class="grid-item curvyleft"></div>
-    		<div class="grid-item"></div>
-    		<div class="grid-item"></div>
-    		<div class="grid-item curvyleft"></div>
-
-    		<div class="grid-item "></div>
-    		<div class="grid-item curvyleft"></div>
-    		<div class="grid-item curvydown"></div>
-    		<div class="grid-item curvydown"></div>
-    		<div class="grid-item curvyleft"></div>
-
-    		<div class="grid-item "></div>
-    		<div class="grid-item curvyleft"></div>
-    		<div class="grid-item"></div>
-    		<div class="grid-item"></div>
-    		<div class="grid-item curvyleft"></div>
-
-    		<div class="grid-item "></div>
-    		<div class="grid-item "></div>
-    		<div class="grid-item curvydown"></div>
-    		<div class="grid-item curvydown"></div>
-    		<div class="grid-item corner-right-down"></div>
-
-    	</div>   		
-    	</div>
