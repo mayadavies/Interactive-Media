@@ -1,11 +1,10 @@
 
-        /* Move all CSS to a stylesheet */
         * { /* Remove default browser spacing */
             margin: 0;
             padding: 0;
         }
         body {
-            margin: 100px; /* Add spacing around the entire page */ 
+            margin:100px; /* Add spacing around the entire page */ 
             font-size: 12px; /* Setting baseline font size */ 
         }
 
