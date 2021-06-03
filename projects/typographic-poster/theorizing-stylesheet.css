@@ -9,99 +9,152 @@ body {
 	margin-right: 50px;
 	margin-bottom: 0px;
 	background: ;
-font-family: aktiv-grotesk-extended,sans-serif;
-font-weight: 700;
-font-style: normal;
-font-size: 12px;
-display: inline-block;
-background-color: black;
-}
-
-h1 {  margin-top: -10px;
-
-color: white;
- font-family: rubrik-new,sans-serif;
+    font-family: aktiv-grotesk-extended,sans-serif;
 font-weight: 300;
 font-style: normal;
-font-size:18em;
-}
+    font-size: 12px;
+    display: inline-block;
+    background-color: black;
+    }
+
+h1 {  
+    margin-top: -10px;
+    color: white;
+    font-family: rubrik-new,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size:18em;
+    }
 
 h2 { margin-top:500px;
-  margin-right: -550px;
-  color: white;
-  font-family: aktiv-grotesk-extended,sans-serif;
-font-weight: 700;
-font-style: normal;
-font-size: 5em;
-grid-column-start: 1;
-grid-column-end:2;
+    margin-right: -550px;
+    color: white;
+    font-family: aktiv-grotesk-extended,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 5em;
+    grid-column-start: 1;
+    grid-column-end:2;
 transform: rotate(90deg); 
+    }
+h2: hover{ margin-top:500px;
+    margin-right: -550px;
+    color: white;
+    font-family: aktiv-grotesk-extended,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 5em;
+    grid-column-start: 1;
+    grid-column-end:2;
+    transform: rotate(90deg); 
+    animation:colour 5s infinite ;
 
-}
+    }
+p {
+    color:white;
+    margin-top: 100px;margin-right: -100px;
+    margin-left: -170px;
+    font-family: aktiv-grotesk-extended, sans-serif;
+font-weight: 300;
 
-p {color:white;
-  margin-top: 100px;margin-right: -100px;
-  margin-left: -170px;
-  font-family: rubrik-new,sans-serif;
-font-weight: 200;
 font-style: normal;
-font-size: 1.5em;
-grid-column-start: 2;
-grid-column-end:4;
+    font-size: 1.5em;
+    grid-column-start: 2;
+    grid-column-end:4;
 
-}
+    }
 
-.list {margin-top: 150px;margin-right:0px;
-  margin-left: -15px;
-font-size: 1.2em;
-}
+
 
 a { color:#FF009C;
     font-size: 5em;
     text-decoration: none;
     margin-left: 200px;
-    margin-top: 200px;}
+    margin-top: 200px;
+    animation:colour .5s infinite alternate;    
+    }
 
 
 
-ul { color: white;
- font-family: rubrik-new,sans-serif;
-font-weight: 300;
-font-style: normal;
-margin-top: 120px;width: 500px;}
+
+ul { 
+    color: white;
+    font-family: aktiv-grotesk-extended,sans-serif;
+font-weight: 200;
+font-style:thin;
+    margin-top: 120px;width: 500px;}
 
 
-h3 { color: white; 
-  margin-top: -50px;
-margin-left: -370px;
-margin-bottom: 0px;
 
- font-family: rubrik-new,sans-serif;
-font-weight: 300;
-font-style: normal;
-font-size:18em;
-}
 
+h3 { 
+    color: #00FFA1; 
+    margin-top: -50px;
+    margin-left: -370px;
+    margin-bottom: 0px;
+    font-family: aktiv-grotesk-extended, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size:18em;
+    animation:moving 5s infinite alternate;
+
+    
+    }
+h3:hover { 
+    color: white; 
+    margin-top: -50px;
+    margin-left: -370px;
+    margin-bottom: 0px;
+    font-family: aktiv-grotesk-extended, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size:18em;
+    animation:colour .5s infinite alternate;
+    }
 h4 {color: white;
  margin-top: -100px;
   margin-bottom: -90px;
   margin-right: -10px;
   margin-left: -170px;
-font-family: rubrik-new,sans-serif;
-font-weight: 300;
+font-family: aktiv-grotesk-extended, sans-serif;
+
+font-weight: 700;
+
 font-style: normal;
 font-size: 2em;
 }
-h5 {color: white;
+h5 {color: #FF009C;
  margin-top: -100px;
   margin-bottom: -90px;
   margin-right: 0px;
   margin-left: -17px;
-font-family: rubrik-new,sans-serif;
-font-weight: 300;
+font-family: aktiv-grotesk-extended, sans-serif;
+
+font-weight: 700;
+
 font-style: normal;
 font-size: 2em;
 }
+
+h6 {  
+    margin-top: -10px;
+    color: #00FFA1;
+    font-family: aktiv-grotesk-extended, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size:18em;
+
+    animation: moving 5s infinite alternate;
+
+    }
+h6:hover {  
+    margin-top: -10px;
+    color: #00FFA1;
+    font-family: aktiv-grotesk-extended, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size:18em;
+    animation: colour .5s infinite alternate;}
 .grid {
 	display:grid;
 	position: absolute;
@@ -112,120 +165,136 @@ font-size: 2em;
 	width: 1280px;
 }
 
-
-
-
+.list {
+    margin-top: 150px;margin-right:0px;
+    margin-left: -15px;
+    font-size: 1.2em;
+    }
 
 .grid-item { 
-  position: relative;
-
-  width: 100%;
-            height: 100%;
-                background-color: transparent; ;
-                border: 1px solid transparent;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: transparent; ;
+    border: 1px solid transparent;
 
 
 }
 
         	
 
-/*
-.header { 
-color: black;
-font-family: aktiv-grotesk-extended,sans-serif;
-font-weight: 800;
-font-style: normal;
-font-size: 30em;}
-
-
-
-
-.header2{  
-color: black;
-font-family: aktiv-grotesk-extended,sans-serif;
-font-weight: 800;
-font-style: normal;
-font-size: 10em;*/
 }
 
+.letter {
 
-
-        	.letter {
-
-        		width:1em; /*resize as you see fit */
-        		height:1em; /*resize as you see fit */
-        		display:inline-block; /* this makes block level elements act like letters (so they sit next to eachother) */
-        		border:1px solid #000; /*feel free to remove or hide this rule */
-        		position:relative; /* IMPORTANT: any element with position:absolute inside this container will now be relative to bounds of this element; */
+    width:1em; /*resize as you see fit */
+    height:1em; /*resize as you see fit */
+    display:inline-block; /* this makes block level elements act like letters (so they sit next to eachother) */
+    border:1px solid #000; /*feel free to remove or hide this rule */
+    position:relative; /* IMPORTANT: any element with position:absolute inside this container will now be relative to bounds of this element; */
 
 
         	}
-.theorizingtheweb:{
-   animation:glitch 1.5s infinite alternate;
-}
-.letter-t {animation:glitch .5s infinite alternate;}
-.letter-b {animation:glitch .5s infinite alternate;}
+
+
+
+.letter-t {animation:movingmore 5s infinite alternate;}
+.letter-b {animation:movingmore 5s infinite alternate;}
 .letter-h {margin-top: 20px;height: 90%;
 margin-left: -20px; 
-animation:glitch .5s infinite alternate;}
+animation:movingmore 5s infinite alternate;}
 
 
 .letter-w{margin-left: 40px;
-animation:glitch .5s infinite alternate;}
+animation:movingmore 5s infinite alternate;}
 
 .letter-e2{margin-left: -40px;
-animation:glitch .5s infinite alternate;}
+animation:movingmore 5s infinite alternate;}
 
 .letter-e {margin-left: 25px;
-animation:glitch .5s infinite alternate;}
+animation:movingmore 5s infinite alternate;}
 
-@keyframes glitch {
- 0% { color: white
+@keyframes movingmore {
+ 0% { color: #00FFA1;
     opacity 1; 
-    transform: translateX(0px);
+    transform: translateX(-200px);
 
  }
- 25%{ color: white
+ to {color: #00FFA1;
+    opacity: ;
+    transform: translateX(200px);}
+ }
+
+@keyframes movingagain {
+ 0% { color: #00FFA1;
+    opacity 1; 
+    transform: translateY(-200px);
+
+ }
+ to {color: #00FFA1;
+    opacity: ;
+    transform: translateY(200px);}
+ }
+
+
+ @keyframes moving {
+ 0% { color: #00FFA1;
+    opacity 1; 
+    transform: translateX(200px);
+
+ }
+ to {color: #00FFA1;
+    opacity: ;
+    transform: translateX(-200px);}
+ }
+@keyframes colour {
+ 0% { color: #00FFA1;
     opacity 1; 
     transform: translateX(10px);
 
  }
-  50%{ color: white
+ 25%{ color: #006C56;
     opacity 1; 
     transform: translateX(-10px);
 
  }
- to {color: pink;
+  50%{ color: #FF009C;
+    opacity 1; 
+    transform: translateX(10px);
+
+ }
+ to {color: #00FFA1;
     opacity: ;
-    transform: translateX(10px);}
+    transform: translateX(0px);}
  }
 
+/* FOR MY DISPLAY FONT START*/
 .minigrid {
-position: absolute;
-                display: grid;
-                grid-template-columns: repeat(5,20%);
-                grid-template-rows: repeat(5,20%);
-                width: 70%;
-                height: 100%;
-                border: 1px solid transparent;
-                background-color: transparent;}
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(5,20%);
+    grid-template-rows: repeat(5,20%);
+    width: 70%;
+    height: 100%;
+    border: 1px solid transparent;
+    background-color: transparent;}
 
-            .minigrid-item {
+.minigrid-item {
 
-                width: 90%;
-                height: 90%;
-                background-color: transparent; ;
-                border: 1px solid transparent;
+    width: 90%;
+    height: 90%;
+    background-color: transparent; ;
+    border: 1px solid transparent;
     }
         	      
-            .curvyleft {
-                     width: 100%;
-                    height: 120%;
-                    background-color: #FF009C;
-                  border-radius: 0px 50px 25px 25px ;
+.curvyleft {
+    width: 100%;
+    height: 120%;
+    background-color: #FF009C;
+    border-radius: 0px 50px 25px 25px ;
                     
-                    box-shadow: -5px -5px  gray;
-                  box-shadow: rgba(240, 46, 170, 0.4) -5px 0px, rgba(240, 46, 170, 0.3) -10px 0px, rgba(240, 46, 170, 0.2) -15px 0px, rgba(240, 46, 170, 0.1) -20px 0px, rgba(240, 46, 170, 0.05) -25px 0px;
+    box-shadow: -5px -5px  gray;
+    box-shadow: rgba(240, 46, 170, 0.4) -5px 0px, rgba(240, 46, 170, 0.3) -10px 0px, rgba(240, 46, 170, 0.2) -15px 0px, rgba(240, 46, 170, 0.1) -20px 0px, rgba(240, 46, 170, 0.05) -25px 0px;
              }
 
             .slant {
@@ -327,4 +396,5 @@ position: absolute;
                     box-shadow: -2px -2px 3px transparent; 
                      box-shadow: rgba(240, 46, 170,- 0.4) -5px 0px, rgba(240, 46, 170, 0.3) 10px 0px, rgba(240, 46, 170, 0.2) -15px 0px, rgba(240, 46, 170, 0.1) -20px 0px, rgba(240, 46, 170, 0.05) -25px 0px; }
     <br/>
+/* FOR MY DISPLAY FONT END*/
 
