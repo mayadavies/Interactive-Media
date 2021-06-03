@@ -37,13 +37,13 @@ h2 {
     grid-column-start: 1;
     grid-column-end:2;
 transform: rotate(90deg);
-animation:change 5s infinite alternate;
+animation:change 8s infinite alternate;
 
     }
 
 
 p {
-    color:white;
+    color:pink;
     margin-top: 100px;margin-right: -100px;
     margin-left: -170px;
     font-family: aktiv-grotesk-extended, sans-serif;
@@ -54,7 +54,7 @@ font-style: normal;
     grid-column-start: 2;
     grid-column-end:4;
 
-    }
+   animation:change 8s infinite alternate; }
 
 
 
@@ -65,19 +65,15 @@ a { color:#FF009C;
     margin-top: 200px;
     animation:colour .5s infinite alternate;    
     }
-a:hover{ color:#FF009C;
-    font-size: 5em;
-    text-decoration: underline;
-    margin-left: 200px;
-    margin-top: 200px;
-    }
+
 
 ul { 
     color: white;
     font-family: aktiv-grotesk-extended,sans-serif;
 font-weight: 200;
 font-style:thin;
-    margin-top: 120px;width: 500px;}
+    margin-top: 120px;width: 500px;
+animation: change 8s infinite alternate}
 
 
 
@@ -117,7 +113,7 @@ font-weight: 700;
 
 font-style: normal;
 font-size: 2em;
-animation:change 5s infinite alternate;
+animation:change 8s infinite alternate;
 }
 h5 {color: #FF8800;
  margin-top: -100px;
@@ -130,7 +126,7 @@ font-weight: 700;
 
 font-style: normal;
 font-size: 2em;
-animation:change 5s infinite alternate;
+animation:change 8s infinite alternate;
 }
 
 h6 {  
@@ -141,7 +137,9 @@ h6 {
     font-style: normal;
     font-size:18em;
     animation: moving 5s infinite alternate;
-}
+    }
+
+
 
 h6:hover {  
     margin-top: -10px;
@@ -235,11 +233,20 @@ animation:movingmore 5s infinite alternate;}
  }
 
 @keyframes change {
- 0% { color: #FF009C;
+ 0% { color:#FF8800;
     opacity 1; 
 
  }
- to {color: #FF8800;
+
+25% { color: #FF009C;
+    opacity 1; 
+
+ }
+
+ 50% {color: #00FFA1;
+
+ }
+ to {color:#0339f8;
     opacity: 1;}
  }
 
