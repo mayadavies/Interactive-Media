@@ -1,0 +1,15 @@
+.grid {
+	display:grid;
+	grid-template-columns: 280px 396px 325px 296px;
+	grid-template-rows: 243px 225px 558px;
+	border: 1px solid black;
+	height: 1024px;
+	width: 1280px;
+}
+
+/* testing purposes*/
+
+
+.grid div {
+	border: 1px solid black;
+}
