@@ -4,7 +4,8 @@
             padding: 0;
         }
         body {
-            margin: 100px; /* Add spacing around the entire page */ 
+            margin-left: 300px;
+            margin-right:300px; /* Add spacing around the entire page */ 
             font-size: 12px; /* Setting baseline font size */ 
         }
 
