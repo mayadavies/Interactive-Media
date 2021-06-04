@@ -53,7 +53,18 @@ h3 {
     animation:moving 5s infinite alternate;
 
     }
+h3:hover { 
+    color: #00FFA1; 
+    margin-top: -50px;
+    margin-left: -370px;
+    margin-bottom: 0px;
+    font-family: aktiv-grotesk-extended, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size:18em;
+    animation:colour .5s infinite alternate;
 
+    }
 /*2018*/
 
 /*headline 1*/
