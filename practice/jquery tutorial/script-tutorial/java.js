@@ -17,23 +17,31 @@ example of writing code to create an abstract site based on
 //declaring color palette in an array
  var colorPalette = [red,yellow,green,cyan,blue,magenta];
 
-
+/*
 console.log(Math.random()); //Math.random creates a value between 0-1 (always a decimal)
 console.log(Math.floor(Math.random())); //math.floor rounds down to a nearest whole number
-console.log(Math.floor(Math.random() * 6)); 
+console.log(Math.floor(Math.random() * 6)); */
 
 
+var randomColor = Math.floor(Math.random() * colorPalette.length);
 
+//console.log(colorPalette.length);
 
 //this is a test to see if my file is linked tomy html//
 
- console.log("hello world");
+
 //change bg color to green/
 
  //$("body").css("background-color",colorPalette[2]);
 
-$("body").css("background-color",colorPalette[Math.floor(Math.random() * 6)]);
+$("body").css("background-color",colorPalette[randomColor]);
 //command '/'' makea a whole line a comment//
+
+
+$("button").click(function() {
+	console.log("Add Box");
+
+});
 
 
 
