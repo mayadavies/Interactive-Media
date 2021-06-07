@@ -40,6 +40,7 @@ $("body").css("background-color",colorPalette[randomColor]);
 
 $("button").click(function() {
 	console.log("Add Box");
+	$("#box-container").append("<div></div>");
 
 });
 
