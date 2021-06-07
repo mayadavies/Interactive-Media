@@ -45,9 +45,19 @@ $("button").click(function() {
 });
 
 
+// For loop to create many boxes
 
+for (var step= 0; step < 100; step ++) {
+	$("#box-container").append("<div></div>");
 
+};
 
+$("#box-container div").each(function(){
+	var randomColorBoxes = colorPalette[Math.floor(Math.random() * colorPalette.length)];
+
+	$(this).css("background-color", randomColorBoxes);
+
+});
 
 
 
