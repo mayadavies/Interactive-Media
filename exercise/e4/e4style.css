@@ -1,15 +1,15 @@
 /* Media Queries: Tablet Landscape */
 body {background: #ff66cc;
+	
 	}
 
 
-}
+/* MEDIA QUERIES*/
 @media screen and (max-width: 1060px) {
     #primary { width:67%; }
     #secondary { width:30%; margin-left:3%;}  
 }
 
-/*Media Queries: Tabled Portrait */
 @media (min-device-width:600px) {
     img[data-src-600px] {
         content: attr(data-src-600px, url);
@@ -28,6 +28,10 @@ body {background: #ff66cc;
 
 img { max-width: 100%; height: auto; } 
 
+/* MEDIA QUERIES*/
+
+
+/* text styling*/
 
 h1 {
 	text-align: center;
@@ -39,6 +43,9 @@ font-style: normal;
 font-size: 50px;
 color: #CCFFCC;
 }
+/* text styling*/
+
+/* iframe settings*/
 
 .video-responsive {
     overflow:hidden;
@@ -46,6 +53,7 @@ color: #CCFFCC;
     position:relative;
     height:0;
 }
+
 .video-iframe {
     left:25%;
     top:0;
@@ -68,4 +76,5 @@ color: #CCFFCC;
     border: 0;
 }
 
+/* iframe settings*/
 
