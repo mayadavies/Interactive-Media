@@ -1,0 +1,63 @@
+body{
+	background-color: purple;}
+
+
+h2 {
+	font-family: giddyup-std,sans-serif;
+font-weight: 400;
+font-style: normal;
+color: #FF14B0;
+font-size: 150px;
+text-align: center;
+line-height: 70%
+
+}
+
+h3 { 	font-family: giddyup-std,sans-serif;
+font-weight: 400;
+font-style: normal;
+color: black;
+font-size: 100px;
+text-align: center;
+line-height: 70%;
+color: #FF14B0;
+margin-top: -40px;
+
+}
+p { 
+
+margin-left: 150px;
+margin-right:150px;
+font-family: annabelle,sans-serif;
+font-weight: 400;
+font-style: normal;
+text-align: center;
+font-size: 30px; 
+color:#FF7FD4;
+margin-top: -40px;
+}
+
+.dark {
+	color: #FF14B0;
+}
+
+.light {
+	color: pink;
+}
+
+
+
+ @keyframes fading-letters {
+ 	from { color: red
+ 	opacity 1; 
+transform: translateY(0px);
+ }
+ 	to {color: pink;
+ 	 opacity: 0;
+ 	 transform: translateY(-20px);
+ }
+ }
+
+ iframe {
+ 	align-items:center;
+ }
