@@ -1,15 +1,16 @@
 body{
-	background-color: purple;}
+	background-color: #300AA5;}
 
 
 h2 {
 	font-family: giddyup-std,sans-serif;
 font-weight: 400;
 font-style: normal;
-color: #FF14B0;
-font-size: 150px;
+color: #FEBA19;
+font-size: 100px;
 text-align: center;
-line-height: 70%
+line-height: 70%;
+mix-blend-mode: luminosity;
 
 }
 
@@ -17,10 +18,10 @@ h3 { 	font-family: giddyup-std,sans-serif;
 font-weight: 400;
 font-style: normal;
 color: black;
-font-size: 100px;
+font-size: 50px;
 text-align: center;
 line-height: 70%;
-color: #FF14B0;
+color: #FEBA19;
 margin-top: -40px;
 
 }
@@ -32,9 +33,10 @@ font-family: annabelle,sans-serif;
 font-weight: 400;
 font-style: normal;
 text-align: center;
-font-size: 30px; 
-color:#FF7FD4;
+font-size: 20px; 
+color:#F9E400;
 margin-top: -40px;
+
 }
 
 .dark {
@@ -58,6 +60,10 @@ transform: translateY(0px);
  }
  }
 
- iframe {
- 	align-items:center;
- }
+
+.container {
+	height: 300px;
+	width: 400px;
+	margin-left: 450px;
+	mix-blend-mode: screen;
+}
