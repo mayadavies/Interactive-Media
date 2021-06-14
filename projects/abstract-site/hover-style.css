@@ -53,7 +53,7 @@ background: blue;
 .tentacle-left {
   height: 300%;
   width: 80%;
-  background-color: white;
+  background-color: orange;
   border-radius: 0px 50px 20px;
   display: inline-block;	
   transform: skew(25deg);
@@ -61,14 +61,30 @@ background: blue;
 .tentacle-right {
   height: 300%;
   width: 80%;
-  background-color: white;
+  background-color: orange;
   border-radius: 50px 0px 50px 20px;
   display: inline-block;	
   transform: skew(-25deg);
 }
 
 
+.tentacle-left2 {
+  height: 300%;
+  width: 80%;
+  background-color: pink;
+  border-radius: 0px 50px 20px;
+  display: inline-block;	
+  transform: skew(25deg);
 
+}
+.tentacle-right2 {
+  height: 300%;
+  width: 80%;
+  background-color: pink;
+  border-radius: 50px 0px 50px 20px;
+  display: inline-block;	
+  transform: skew(-25deg);
+}
 
 
 
@@ -99,6 +115,19 @@ height: 200%;
 }
 
 
+.bubble-small {
+height: 100%;
+ width: 70%;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 50px;
+  
+  
+
+}
+
+
 .small {
   height: 80%;
   width: 80%;
@@ -117,6 +146,7 @@ box-shadow: 30px -40px white;
   border-radius: 50px 0px ;
   transform: skewY(-25deg);
     transform: skewX(-25deg);
+        transform: rotate(45deg);
 box-shadow: 30px -40px white;
 
 }
