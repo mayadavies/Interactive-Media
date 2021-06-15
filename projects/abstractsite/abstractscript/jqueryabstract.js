@@ -1,17 +1,25 @@
-var originalBG = $(".nav a").css("background-color");
 
-$('.nav li:not(".active") a').mousemove(function(e) {
-    x = e.pageX - this.offsetLeft;
-    y = e.pageY - this.offsetTop;
-    xy = x + " " + y;
-    bgWebKit = "-webkit-gradient(radial, " + xy + ", 0, " + xy + ", 100, from(rgba(255,255,255,0.8)), to(rgba(255,255,255,0.0))), " + originalBG;
-    bgMoz = "-moz-radial-gradient(" + x + "px " + y + "px 45deg, circle, " + lightColor + " 0%, " + originalBG + " " + gradientSize + "px)";
 
-    $(this)
-        .css({background: bgWebKit})
-        .css({background: bgMoz});
-    }).mouseleave(function() {
-    $(this).css({
-        background: originalBG
-    });
+ var red="#FF0000";
+ var green="#81FF2B";
+ var blue="#0000FF";
+ var black="black";
+
+//declaring color palette in an array
+ var colorPalette = [red,green,blue,black,];
+
+/*
+console.log(Math.random()); //Math.random creates a value between 0-1 (always a decimal)
+console.log(Math.floor(Math.random())); //math.floor rounds down to a nearest whole number
+console.log(Math.floor(Math.random() * 6)); */
+
+
+var randomColor = Math.floor(Math.random() * colorPalette.length);$("body").css("background-color",colorPalette[randomColor]);
+//command '/'' makea a whole line a comment//
+
+
+$("button").click(function() {
+    console.log("Add Box");
+    $("#box-container").append("<div></div>");
+
 });
