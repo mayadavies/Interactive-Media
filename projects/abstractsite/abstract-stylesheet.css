@@ -2,6 +2,7 @@
 	margin: 0;
 	padding:0;
 	box-sizing: border-box;
+	cursor: none;
 }
 button {
 	font-size: 72px;
@@ -11,34 +12,79 @@ html, body {
 	width: 100%;
 	height: 200%;
 	background: blue;
+	display: inline-block;
+	text-align: center;
 	
 }
 
 
 
 .hiddenletters{
-	font-size: 200px;
+	font-size: 100px;
 	color: transparent;
+	margin-bottom: -50px;
 }
 
 .hiddenletters:hover{
 
-	font-size: 200px;
+	font-size: 100px;
 
-color: yellow;
-		animation: light 3s ; 
+color: white;
+  		text-shadow: 5px 5px 10px white;
+
+animation: light 2s ; 
 mix-blend-mode: luminosity;
 }
 
+.cursor { width: 10rem;
+	height: 10rem; 
+	border: 2px  white;
+	border-radius: 50% ;
+	margin-top: -150px;
+background-color: black;
 
+position: absolute;
+transform: translate(-50%, 50%);
+	pointer-events: none; }
+.box {
+	width: 2000px;
+	height: 600px;
+background-color:  red;
+	border: solid 1px red;
 
+}
+
+.hiddenletters-1 {
+
+	font-size: 100px;
+	color: transparent;
+	margin-bottom: -50px;
+}
+
+.hiddenletters-1: hover {
+
+	font-size: 100px;
+	color: pink;
+	margin-bottom: -50px;
+	animation: light 2s ; 
+mix-blend-mode: luminosity;
+}
 
 @keyframes light {
 
   from {color: transparent;}
-  to {color: yellow;
+  to {color: white;
   		text-shadow: 5px 5px 10px white;
 
 
   	 }
 }
+
+
+
+
+
+
+
+
+
