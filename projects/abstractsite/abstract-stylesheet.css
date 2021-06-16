@@ -29,8 +29,8 @@ html, body {
 
 	font-size: 100px;
 
-color: white;
-  		text-shadow: 5px 5px 10px white;
+color: black;
+  		text-shadow: 5px 5px 10px black;
 
 animation: light 2s ; 
 mix-blend-mode: luminosity;
@@ -41,45 +41,50 @@ mix-blend-mode: luminosity;
 	border: 2px  white;
 	border-radius: 50% ;
 	margin-top: -150px;
-background-color: black;
+background-color: red;
 
 position: absolute;
 transform: translate(-50%, 50%);
 	pointer-events: none; }
-.box {
-	width: 2000px;
-	height: 600px;
-background-color:  red;
-	border: solid 1px red;
 
-}
 
-.hiddenletters-1 {
 
-	font-size: 100px;
+.treasure{
+	font-size: 70px;
 	color: transparent;
-	margin-bottom: -50px;
+	margin-left: 50px;
 }
 
-.hiddenletters-1: hover {
+.treasure:hover{
 
-	font-size: 100px;
-	color: pink;
-	margin-bottom: -50px;
-	animation: light 2s ; 
+	font-size: 50px;
+	margin-left: 50px;
+
+color: black;
+  		text-shadow: 5px 5px 10px black;
+
+animation: light 2s ; 
 mix-blend-mode: luminosity;
 }
+
 
 @keyframes light {
 
   from {color: transparent;}
-  to {color: white;
-  		text-shadow: 5px 5px 10px white;
+  to {color: black;
+  		text-shadow: 5px 5px 10px black;
 
 
   	 }
 }
 
+
+.instructions {
+
+	font-size: 30px;
+	color: red;
+	margin-bottom: -50px;
+}
 
 
 

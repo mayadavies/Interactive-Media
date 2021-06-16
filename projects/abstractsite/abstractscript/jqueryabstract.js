@@ -1,8 +1,8 @@
 
 
 
- var white="white";
- 
+ var white="black";
+
 
 
 //declaring color palette in an array
