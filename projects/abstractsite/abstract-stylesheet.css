@@ -45,10 +45,10 @@ mix-blend-mode: luminosity;
 	border: 2px  white;
 	border-radius: 50% ;
 	margin-top: -150px;
-	box-shadow: red 5px 5px 5px 5px ;
-	box-shadow: red 5px 5px 5px 15px ;
+	box-shadow: orange 5px 5px 5px 5px ;
+	box-shadow: orange 5px 5px 5px 15px ;
 
-background-color: red;
+background-color: orange;
 mix-blend-mode: difference;
 position: absolute;
 transform: translate(-50%, 50%);
@@ -108,7 +108,7 @@ mix-blend-mode: luminosity;
 .instructions {
 
 	font-size: 30px;
-	color: red;
+	color: 	#94e5ff;
 	margin-bottom: -50px;
 }
 
