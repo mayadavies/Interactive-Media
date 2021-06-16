@@ -9,11 +9,11 @@ button {
 }
 
 html, body {
-	width: 100%;
-	height: 200%;
-	background: blue;
 	display: inline-block;
 	text-align: center;
+	font-family: p22-stanyan,sans-serif;
+font-weight: 400;
+font-style: normal;
 	
 }
 
@@ -23,6 +23,10 @@ html, body {
 	font-size: 100px;
 	color: transparent;
 	margin-bottom: -50px;
+	font-family: p22-stanyan,sans-serif;
+font-weight: 400;
+font-style: normal;
+
 }
 
 .hiddenletters:hover{
@@ -41,24 +45,27 @@ mix-blend-mode: luminosity;
 	border: 2px  white;
 	border-radius: 50% ;
 	margin-top: -150px;
-background-color: red;
+	box-shadow: red 5px 5px 5px 5px ;
+	box-shadow: red 5px 5px 5px 15px ;
 
+background-color: red;
+mix-blend-mode: difference;
 position: absolute;
 transform: translate(-50%, 50%);
 	pointer-events: none; }
 
 
 
-.treasure{
-	font-size: 70px;
+.treasure1 {
+	font-size: 20px;
 	color: transparent;
-	margin-left: 50px;
+	margin-left: -500px;
 }
 
-.treasure:hover{
+.treasure1:hover{
 
-	font-size: 50px;
-	margin-left: 50px;
+	font-size: 20px;
+	margin-left: -500px;
 
 color: black;
   		text-shadow: 5px 5px 10px black;
@@ -66,6 +73,25 @@ color: black;
 animation: light 2s ; 
 mix-blend-mode: luminosity;
 }
+
+.treasure2 {
+	font-size: 20px;
+	color: transparent;
+	margin-left: 500px;
+}
+
+.treasure2:hover{
+
+	font-size:20px;
+	margin-left: 500px;
+
+color: black;
+  		text-shadow: 5px 5px 10px black;
+
+animation: light 2s ; 
+mix-blend-mode: luminosity;
+}
+
 
 
 @keyframes light {
