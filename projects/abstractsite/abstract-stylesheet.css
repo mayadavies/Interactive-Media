@@ -15,7 +15,7 @@ html, body {
 	
 }
 
-
+/* Hidden Intro Paragraph*/
 
 .hiddenletters{
 	font-size: 65px;
@@ -39,6 +39,9 @@ html, body {
 	mix-blend-mode: luminosity;
 }
 
+
+/* Cursor Settings*/
+
 .cursor { width: 10rem;
 	height: 10rem; 
 	border: 2px  white;
@@ -53,6 +56,7 @@ html, body {
 	pointer-events: none; 
 }
 
+/* Hidden Fortune Text Settings*/
 
 
 .fortune1 {
@@ -165,6 +169,8 @@ html, body {
 	mix-blend-mode: luminosity;
 }
 
+/* Animation for hidden text*/
+
 @keyframes light {
 
   from {
@@ -177,6 +183,7 @@ html, body {
   }
 }
 
+/* Animation for goodbye text*/
 
 @keyframes flicker {
 
@@ -190,6 +197,7 @@ html, body {
 
   	}
 }
+/* Instruction text*/
 
 .instructions {
 	font-size: 40px;
@@ -200,6 +208,7 @@ html, body {
 	font-style: normal;
 }
 
+/* Goodbye text*/
 
 .goodbye {
 	font-size: 40px;
