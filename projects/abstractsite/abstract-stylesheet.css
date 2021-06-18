@@ -21,8 +21,9 @@ html, body {
 	font-size: 65px;
 	color: transparent;
 	margin-bottom: -50px;
-	font-family: ff-providence-sans-web-pro,sans-serif;
+font-family: mason-serif,sans-serif;
 font-weight: 400;
+font-style: normal;
 font-style: normal;
 
 }
@@ -30,7 +31,7 @@ font-style: normal;
 .hiddenletters:hover{
 
 	font-size: 65px;
-font-family: ff-providence-sans-web-pro,sans-serif;
+font-family: mason-serif,sans-serif;
 font-weight: 400;
 font-style: normal;
 color: black;
@@ -60,7 +61,7 @@ transform: translate(-50%, 50%);
 	font-size: 20px;
 	color: transparent;
 	margin-left: -500px;
-	font-family: ff-providence-sans-web-pro,sans-serif;
+font-family: mason-serif,sans-serif;
 font-weight: 400;
 font-style: normal;
 }
@@ -69,7 +70,7 @@ font-style: normal;
 
 	font-size: 20px;
 	margin-left: -500px;
-	font-family: ff-providence-sans-web-pro,sans-serif;
+font-family: mason-serif,sans-serif;
 font-weight: 400;
 font-style: normal;
 
@@ -84,7 +85,7 @@ mix-blend-mode: luminosity;
 	font-size: 20px;
 	color: transparent;
 	margin-left: 500px;
-	font-family: ff-providence-sans-web-pro,sans-serif;
+font-family: mason-serif,sans-serif;
 font-weight: 400;
 font-style: normal;
 }
@@ -93,7 +94,7 @@ font-style: normal;
 
 	font-size:20px;
 	margin-left: 500px;
-font-family: ff-providence-sans-web-pro,sans-serif;
+font-family: mason-serif,sans-serif;
 font-weight: 400;
 font-style: normal;
 color: black;
@@ -108,7 +109,7 @@ mix-blend-mode: luminosity;
 	font-size: 20px;
 	color: transparent;
 	margin-right: 300px;
-	font-family: ff-providence-sans-web-pro,sans-serif;
+font-family: mason-serif,sans-serif;
 font-weight: 400;
 font-style: normal;
 }
@@ -117,12 +118,66 @@ font-style: normal;
 
 	font-size:20px;
 	margin-right: 300px;
-	font-family: ff-providence-sans-web-pro,sans-serif;
+
+font-family: mason-serif,sans-serif;
 font-weight: 400;
 font-style: normal;
 
 color: black;
   		text-shadow: 5px 5px 10px black;
+
+animation: light 2s ; 
+mix-blend-mode: luminosity;
+}
+
+.fortune4 {
+	font-size: 20px;
+	color: transparent;
+	margin-right: 700px;
+	margin-top: 50px;
+font-family: mason-serif,sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.fortune4:hover{
+
+	font-size:20px;
+	margin-right: 700px;
+	margin-top: 50px;
+
+font-family: mason-serif,sans-serif;
+font-weight: 400;
+font-style: normal;
+
+color: black;
+  		text-shadow: 5px 5px 10px black;
+
+animation: light 2s ; 
+mix-blend-mode: luminosity;
+}
+.fortune5 {
+	font-size: 20px;
+	color: transparent;
+	margin-left: 500px;
+	margin-top: 100px;
+
+font-family: mason-serif,sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.fortune5:hover{
+
+	font-size:20px;
+	margin-left: 500px;
+		margin-top: 100px;
+font-family: mason-serif,sans-serif;
+font-weight: 400;
+font-style: normal;
+color: black;
+  		text-shadow: 5px 5px 10px black;
+
 
 animation: light 2s ; 
 mix-blend-mode: luminosity;
@@ -137,21 +192,39 @@ mix-blend-mode: luminosity;
 
   	 }
 }
+@keyframes flicker {
 
+  from {color: purple;}
+  to {color: white; opacity:10%;
+
+
+  	 }
+}
 
 .instructions {
 
 	font-size: 40px;
 	color: 	#afff14;
 	margin-bottom: -50px;
-	font-family: amador,sans-serif;
+font-family: saber,sans-serif;
 font-weight: 400;
 font-style: normal;
 }
 
 
+.goodbye {
 
-#94e5ff
+	font-size: 40px;
+	color: 	purple;
+	margin-bottom: -50px;
+font-family: saber,sans-serif;
+font-weight: 400;
+font-style: normal;
+animation: flicker .5s infinite  ; 
+
+
+}
+
 
 
 

@@ -1,12 +1,12 @@
 
 
 
- var white="black";
+ var black="black";
 
 
 
 //declaring color palette in an array
- var colorPalette = [white];
+ var colorPalette = [black];
 
 /*
 console.log(Math.random()); //Math.random creates a value between 0-1 (always a decimal)
