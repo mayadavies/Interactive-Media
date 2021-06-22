@@ -7,12 +7,14 @@
 
 
 
+/*General display*/
 
-body { font-family: azo-sans-web,sans-serif;
-font-weight: 700;
-font-style: normal;
-font-size: 12px; 
-padding-top: -30px;
+body { 
+	font-family: azo-sans-web,sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 12px; 
+	padding-top: -30px;
 }
 
 /*SITE COLOURS*/
@@ -261,7 +263,7 @@ p {
 }
 
 .input4 {
-	
+
 	background-color: white;
 	color: #7D00FF;
 	width: 150px;
