@@ -16,6 +16,7 @@ text-decoration-color: #FF13BA;}
 a:link {
   color: #FF13BA;
   text-decoration: none;
+  font-size: 50px;
 }
 
 /* visited link */
@@ -31,4 +32,14 @@ a:hover {
 /* selected link */
 a:active {
   color: blue;
+}
+
+.left {
+	float: left;
+	padding-left: 50px;
+}
+
+.right {
+	float: right;
+	padding-right: 50px;
 }
