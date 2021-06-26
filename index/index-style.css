@@ -17,6 +17,7 @@ a:link {
   color: #FF13BA;
   text-decoration: none;
   font-size: 40px;
+  animation: ColorChange 2s infinite alternate;
 }
 
 /* visited link */
@@ -42,14 +43,86 @@ a:active {
 	float: right;
 }
 
-@keyframes slidein {
-  from {
-    margin-left: 100%;
-    width: 300%;
+@keyframes ColorChange {
+  from { color: #FF13BA
+    
   }
 
   to {
-    margin-left: 0%;
-    width: 100%;
+   color: #FF7600
   }
 } 
+
+@keyframes  {
+  from { color: #FF96D6;
+
+    
+  }
+
+  to {
+   color: #FF7600
+  }
+} 
+
+.button {
+
+  background-color: #7D00FF;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family: aktiv-grotesk-extended,sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20px;
+}
+
+
+
+.button:hover {
+  
+  background-color:  #FF7600;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family: aktiv-grotesk-extended,sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20px;
+}
+
+
+.button:clicked {
+  
+  background-color:  blue;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family: aktiv-grotesk-extended,sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
