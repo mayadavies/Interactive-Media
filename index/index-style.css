@@ -1,7 +1,7 @@
 /* Add a black background color to the top navigation */
 
 h1 { font-family: 'Flamer', sans-serif;
-font-size: 70px; 
+font-size: 60px; 
 color: #7D00FF}
 
 body { text-align: center; 
@@ -9,14 +9,14 @@ background-color: #CBFF00;
 font-family: aktiv-grotesk-extended,sans-serif;
 font-weight: 700;
 font-style: normal;
-font-size: 20px; 
+font-size: 15px; 
 text-decoration-color: #FF13BA;}
 
 
 a:link {
   color: #FF13BA;
   text-decoration: none;
-  font-size: 50px;
+  font-size: 40px;
 }
 
 /* visited link */
@@ -36,10 +36,20 @@ a:active {
 
 .left {
 	float: left;
-	padding-left: 50px;
 }
 
 .right {
 	float: right;
-	padding-right: 50px;
 }
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+} 
