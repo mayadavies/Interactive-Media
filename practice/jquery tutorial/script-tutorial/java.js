@@ -24,7 +24,7 @@ console.log(Math.floor(Math.random() * 6)); */
 
 var randomColor = Math.floor(Math.random() * colorPalette.length);
 
-//console.log(colorPalette.length);
+console.log("hello");
 
 //this is a test to see if my file is linked tomy html//
 

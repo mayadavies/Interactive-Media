@@ -5,16 +5,16 @@ Abstract website tutorial
 
 */
 //declaring colours
- var red="#FF0000";
- var yellow="#FFFF00";
- var green="#81FF2B";
- var cyan="#00FFFF";
- var blue="#0000FF";
- var magenta="#FF00FF";
- var purple ="#662D91"
+ var green="#CBFF00";
+ var pink="#FF13BA";
+ var purple="#7D00FF";
+ var lightpink="#FF96D6";
+ var orange="#FF7600";
+ var black="#black";
+ var white ="#white"
 
 //declaring color palette in an array
- var colorPalette = [red,yellow,green,cyan,blue,magenta,purple];
+ var colorPalette = [green,purple,lightpink,orange,white,purple];
 
 /*
 console.log(Math.random()); //Math.random creates a value between 0-1 (always a decimal)
@@ -24,7 +24,7 @@ console.log(Math.floor(Math.random() * 6)); */
 
 var randomColor = Math.floor(Math.random() * colorPalette.length);
 
-console.log ("testing testing");
+console.log ("hi");
 //this is a test to see if my file is linked tomy html//
 
 
@@ -43,18 +43,17 @@ $("button").click(function() {
 });
 
 
-// For loop to create many boxes
+// // For loop to create many boxes
 
-for (var step= 0; step < 600; step ++) {
-	$("#box-container").append("<div></div>");
+// //	$("#box-container").append("<div></div>");
 
-};
-//loop through all grid idems and add a random color from colorPallette
-$("#box-container div").each(function(){
-	var randomColorBoxes = colorPalette[Math.floor(Math.random() * colorPalette.length)];
-	$(this).css("background-color", randomColorBoxes);
+// };
+// //loop through all grid idems and add a random color from colorPallette
+// $("#box-container div").each(function(){
+// 	var randomColorBoxes = colorPalette[Math.floor(Math.random() * colorPalette.length)];
+// 	$(this).css("background-color", randomColorBoxes);
 
-});
+// });
 
 //randomly change width and height of grid item when clicked
 // $("#box-container div").click(function()  {
@@ -91,32 +90,32 @@ $("#box-container div").each(function(){
 
 
 //KEYBOARD EVENTS
-var increaseWidth =10;
-var increaseHeight= 10;
+// var increaseWidth =10;
+// var increaseHeight= 10;
 
 
 
-$(document).keydown(function(event){
-	var code= event.which; //keycode
+// $(document).keydown(function(event){
+// 	var code= event.which; //keycode
 
-	if clicked { //the keycode for 'a' is 65
-	increaseWidth+=10
-	//increaseWidth=increaseWidth +1;
-	//simplified : increaseWidth ++
-		console.log("the 'a' key is down");
+// 	if clicked { //the keycode for 'a' is 65
+// 	increaseWidth+=10
+// 	//increaseWidth=increaseWidth +1;
+// 	//simplified : increaseWidth ++
+// 		console.log("the 'a' key is down");
 
-		$("#box-container div").css("width",increaseWidth);
+// 		$("#box-container div").css("width",increaseWidth);
 
-	}else {
-		console.log("typing other letters");
-		increaseHeight+=10;
-		$("#box-container div").css("height",increaseHeight);
+// 	}else {
+// 		console.log("typing other letters");
+// 		increaseHeight+=10;
+// 		$("#box-container div").css("height",increaseHeight);
 
- //good for testing
+//  //good for testing
 		
-	};
+// 	};
 
-});
+// });
 
 
 

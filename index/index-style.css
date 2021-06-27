@@ -2,22 +2,31 @@
 
 h1 { font-family: 'Flamer', sans-serif;
 font-size: 60px; 
-color: #7D00FF}
+color: #FF13BA;}
 
 body { text-align: center; 
-background-color: #CBFF00;
+background-color: #7D00FF;
 font-family: aktiv-grotesk-extended,sans-serif;
 font-weight: 700;
 font-style: normal;
-font-size: 15px; 
+font-size: 20px; 
 text-decoration-color: #FF13BA;}
-
-
+p { padding-right: 70px;
+  padding-left:70px;
+  font-family: aktiv-grotesk-extended,sans-serif;
+  font-weight: 200;
+  font-style: normal;
+color: black;}
 a:link {
+  font-family: aktiv-grotesk-extended,sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color:#FF96D6; 
   color: #FF13BA;
   text-decoration: none;
-  font-size: 40px;
+  font-size: 20px;
   animation: ColorChange 2s infinite alternate;
+
 }
 
 /* visited link */
@@ -34,9 +43,9 @@ a:hover {
 a:active {
   color: blue;
 }
-
-.left {
-	float: left;
+.color1{ color: blue; }
+.color1:hover {
+	color: white;
 }
 
 .right {
@@ -53,22 +62,13 @@ a:active {
   }
 } 
 
-@keyframes  {
-  from { color: #FF96D6;
 
-    
-  }
-
-  to {
-   color: #FF7600
-  }
-} 
 
 .button {
 
-  background-color: #7D00FF;
+  background-color: #CBFF00;
   border: none;
-  color: white;
+  color: black;
   padding: 15px 32px;
   text-align: center;
   display: inline-block;
@@ -115,12 +115,70 @@ a:active {
   font-style: normal;
   font-size: 20px;
 }
+.one {
+  animation: letsgo  alternate-reverse 5s;
+}
+
+.two {
+  animation: letsgoagain  alternate-reverse 5s;
+}
+
+.three {
+animation: letsgo  alternate-reverse 5s;
+    animation-delay: 1s;
+}
 
 
+.four {
+  animation: letsgoagain  alternate-reverse 5s;
+      animation-delay: 1s;
+
+}
+@keyframes letsgo {
+  from { transform: translateY(-100px);
+
+    
+  }
+
+  25%{ transform: translateX(100px); 
+  transform: rotate(-20deg);}
+
+  50% {  transform: translateY(-100px);  
+
+transform: rotate(-50deg);
+  }
+75% { transform: translateY(70px)
+  transform: rotate(-70deg);
+
+}
+  to {transform: translateX(0px);
+    transform: rotate(0deg);
+  
+  }
+} 
 
 
+@keyframes letsgoagain {
+  from { transform: translateY(100px);
 
+    
+  }
 
+  25%{ transform: translateX(-100px);
+   transform: rotate(20deg); }
+
+  50% {  transform: translateY(100px); 
+
+transform: rotate(50deg);
+
+  }
+75% {transform: translateY(100px)
+  transform: rotate(70deg);
+}
+  to {transform: translateX(-0px);
+    transform: rotate(0deg);
+  }
+} 
 
 
 
