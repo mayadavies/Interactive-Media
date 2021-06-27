@@ -56,7 +56,9 @@ a:active {
   from { color: #FF13BA
     
   }
+50% { color: white;
 
+}
   to {
    color: #FF7600
   }
@@ -116,31 +118,46 @@ a:active {
   font-size: 20px;
 }
 .one {
-  animation: letsgo  alternate-reverse 5s;
+  animation: letsgo  alternate-reverse 10s;
+animation-timing-function: cubic-bezier(0.25,0.1,0.25,1);}
 }
 
 .two {
-  animation: letsgoagain  alternate-reverse 5s;
+  animation: letsgoagain  alternate-reverse 10s;
 }
 
 .three {
-animation: letsgo  alternate-reverse 5s;
+animation: letsgo  alternate-reverse 10s;
     animation-delay: 1s;
 }
 
 
 .four {
-  animation: letsgoagain  alternate-reverse 5s;
-      animation-delay: 1s;
+  animation: letsgoagain  alternate-reverse 10s;
+      animation-delay: s;
+
+}
+
+.five{
+  animation: letsgo  alternate-reverse 10s;
+      animation-delay: 2s;
+animation-timing-function: ease-out;
+
+}
+
+.six{
+  animation: letsgoagain  alternate-reverse 10s;
+      animation-delay: 3s;
+animation-timing-function: ease-out;
 
 }
 @keyframes letsgo {
-  from { transform: translateY(-100px);
+  from { transform: translateY(-300px);
 
     
   }
 
-  25%{ transform: translateX(100px); 
+  25%{ transform: translateX(300px); 
   transform: rotate(-20deg);}
 
   50% {  transform: translateY(-100px);  
@@ -153,6 +170,7 @@ transform: rotate(-50deg);
 }
   to {transform: translateX(0px);
     transform: rotate(0deg);
+
   
   }
 } 
