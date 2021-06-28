@@ -3,8 +3,8 @@
             padding: 0;
         }
         body {
-            margin:100px; /* Add spacing around the entire page */ 
-            font-size: 12px; /* Setting baseline font size */ 
+            padding: 10px; /* Add spacing around the entire page */ 
+            font-size: 10px; /* Setting baseline font size */ 
         }
 
         /* Start of text sizes */
