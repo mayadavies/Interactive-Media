@@ -1,31 +1,40 @@
 
-h1 { text-align: center; font-family: 'Flamer', sans-serif;
-font-size: 80px; 
-color: #FF13BA;
-animation: ColorChangeagain  1s infinite alternate;
-position: relative;
-}
+/*Text and body set up*/
+
 body { 
-background-color: #7D00FF;
-font-family: aktiv-grotesk-extended,sans-serif;
-font-weight: 700;
-font-style: normal;
-font-size: 20px; 
-padding-left: 90px;
-padding-right: 90px;
-padding-bottom: -100px
-padding-top: -100px;
-text-decoration-color: #FF13BA;
+  background-color: #7D00FF;
+  font-family: aktiv-grotesk-extended,sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20px; 
+  padding-left: 90px;
+  padding-right: 90px;
+  padding-bottom: -100px
+  padding-top: -100px;
+  text-decoration-color: #FF13BA;
 }
-p { padding-right: 80px;
+
+h1 { 
+  text-align: center; 
+  font-family: 'Flamer', sans-serif;
+  font-size: 80px; 
+  color: #FF13BA;
+  animation: ColorChangeagain  1s infinite alternate;
+  position: relative;
+}
+
+p { 
+  padding-right: 80px;
   padding-left:80px;
   font-family: aktiv-grotesk-extended,sans-serif;
   font-weight: 200;
   font-style: normal;
-color: white;
+  color: white;
   position: relative;
 
 }
+
+
 a:link {
   font-family: aktiv-grotesk-extended,sans-serif;
   font-weight: 700;
@@ -44,11 +53,9 @@ h2 {
   text-align: center;
 }
 
-/* mouse over link */
-
    
 
-
+/*responsive settings*/
 @media (min-device-width:600px) {
     a[data-src-600px] {
         content: attr(data-src-600px, url);
@@ -66,39 +73,49 @@ h2 {
 }
 
 
-
+/* Text color animations*/
 @keyframes ColorChangeagain {
-  from { color: #FF13BA;
-    transform: rotate(2deg);
+  from { 
+        color: #FF13BA;
+        transform: rotate(2deg);
     
 }
 
 
   to {
-   color: #CBFF00;
+       color: #CBFF00;
 
        transform: rotate(-2deg);
 
   }
 } 
 
+
 @keyframes ColorChange {
-  from { color: #FF13BA
+  from { 
+        color: #FF13BA
     
   }
 
-  25%{ color: #FF7600
+  25%{ 
+        color: #FF7600
 
   }
-50% { color: #CBFF00;
+50% { 
+      color: #CBFF00;
 
 }
-75%{ color: white; }
-  to {color: black;
+75%{ 
+    color: white; 
+  }
+
+  to {
+    color: black;
   
   }
 } 
 
+/* Button styling*/
 
 button {
   background-color: #FF13BA;
@@ -114,7 +131,7 @@ button {
   font-weight: 700;
   font-style: normal;
   font-size: 20px;
-align-content: center;}
+  align-content: center;}
 
 
 
@@ -134,13 +151,14 @@ button:hover {
   font-size: 20px;
 }
 
+/* Link animation styling*/
 
 
 .one {
   animation: letsgo  alternate-reverse 10s;
   text-align: left;
   transition-timing-function: ease-in;
-  animation-timing-function: ease-in;
+  animation-timing-function: ease-out;
 
   
 }
@@ -150,30 +168,25 @@ button:hover {
 .two {
   animation: letsgoagain alternate-reverse 10s;
   text-align: right;
-      animation-delay: .5s;
-        transition-timing-function: ease-in;
-        animation-timing-function: ease-in;
-
-
-
+  animation-delay: .5s;
+  transition-timing-function: ease-in;
+  animation-timing-function: ease-out;
 
 }
 
 .three {
 animation: letsgo  alternate-reverse 10s;
-    animation-delay: 1s;
-    animation-timing-function: ease-in;
-
-      text-align: left;
+animation-delay: 1s;
+animation-timing-function: ease-in;
+text-align: left;
 
 }
 
 
 .four {
   animation: letsgoagain  alternate-reverse 10s;
-      animation-delay: 1.5s;
-      animation-timing-function: ease-in;
-
+  animation-delay: 1.5s;
+  animation-timing-function: ease-in;
   text-align: right;
 
 
@@ -181,50 +194,45 @@ animation: letsgo  alternate-reverse 10s;
 
 .five{
   animation: letsgo  alternate-reverse 10s;
-      animation-delay: 2s;
-animation-timing-function: ease-out;
-animation-timing-function: ease-in;
-
-      text-align: left;
-
+  animation-delay: 2s;
+  animation-timing-function: ease-out;
+  animation-timing-function: ease-in;
+  text-align: left;
 
 }
 
 .six{
   animation: letsgoagain  alternate-reverse 10s;
-      animation-delay: 2.5s;
-animation-timing-function: ease-out;
-animation-timing-function: ease-in;
-
+  animation-delay: 2.5s;
+  animation-timing-function: ease-out;
+  animation-timing-function: ease-in;
   text-align: right;
-
 
 }
 
 .seven{
   animation: letsgo  alternate-reverse 10s;
-      animation-delay: 3s;
-animation-timing-function: ease-out;
-animation-timing-function: ease-in;
-
-      text-align: left;
+  animation-delay: 3s;
+  animation-timing-function: ease-out;
+  animation-timing-function: ease-in;
+  text-align: left;
 
 }
 
 .eight{
   animation: letsgoagain  alternate-reverse 10s;
-      animation-delay: 3.5s;
-animation-timing-function: ease-out;
+  animation-delay: 3.5s;
+  animation-timing-function: ease-out;
   text-align: right;
 
 
 }
 
-.nine{
+.nine{ 
   animation: letsgo alternate-reverse 10s;
-      animation-delay: 4s;
-animation-timing-function: ease-out;
-      text-align: left;
+  animation-delay: 4s;
+  animation-timing-function: ease-out;
+  text-align: left;
 
 }
 .ten{
@@ -237,39 +245,45 @@ animation-timing-function: ease-out;
 
 .eleven{
   animation: letsgo alternate-reverse 10s;
-      animation-delay: 5s;
-animation-timing-function: ease-out;
-      text-align: left;}
+  animation-delay: 5s;
+  animation-timing-function: ease-out;
+  text-align: left;
+}
 
-h3
-{text-align:center; font-family: aktiv-grotesk-extended,sans-serif;
+
+/*button layout*/
+h3{
+  text-align:center; font-family: aktiv-grotesk-extended,sans-serif;
   font-weight: 700;
   font-style: normal;
   color:#FF96D6; 
   color: #FF13BA;
   text-decoration: none;
-  font-size: 20px;cursor:pointer;}
-div.content{background:blue; width:50%; margin:0 auto;}
+  font-size: 20px;cursor:pointer;
+}
 
-
+/*text movement animations*/
 @keyframes letsgo {
-  from { transform: translateY(-300px);
-
+  from { 
+    transform: translateY(-300px);
     
   }
 
-  25%{ transform: translateX(300px); 
+  25%{ 
+  transform: translateX(300px); 
   transform: rotate(-20deg);}
 
-  50% {  transform: translateY(-100px);  
-
-transform: rotate(-50deg);
+  50% {  
+    transform: translateY(-100px);  
+    transform: rotate(-50deg);
   }
-75% { transform: translateY(70px)
+75% { 
+  transform: translateY(70px)
   transform: rotate(180deg);
 
 }
-  to {transform: translateX(0px);
+  to {
+    transform: translateX(0px);
     transform: rotate(0deg);
 
   
@@ -278,56 +292,31 @@ transform: rotate(-50deg);
 
 
 @keyframes letsgoagain {
-  from { transform: translateY(0px);
-
-
+  from {
+    transform: translateY(0px);
     
   }
 
-  25%{ transform: translateX(100px);
-   transform: rotate(20deg); }
+  25%{ 
+    transform: translateX(100px);
+    transform: rotate(20deg); 
+}
 
-  50% {  transform: translateY(-200px); 
-
-transform: rotate(50deg);
+  50% {  
+    transform: translateY(-200px); 
+    transform: rotate(50deg);
 
   }
-75% {transform: translateY(100px)
+75% {
+  transform: translateY(100px)
   transform: rotate(70deg);
 }
-  to {transform: translateX(20px);
+  to {
+    transform: translateX(20px);
     transform: rotate(180deg);
   }
 } 
 
-@keyframes hovering {
-  from { transform: translateY(100px);
-
-    
-  }
-
-  25%{ transform: translateX(-200px);
-   transform: rotate(20deg); }
-
-  50% {  transform: translateY(-200px); 
-
-transform: rotate(50deg);
-
-  }
-75% {transform: translateY(100px)
-  transform: rotate(70deg);
-}
-  to {transform: translateX(20px);
-    transform: rotate(180deg);
-  }
-} 
-
-.one:hover {
-color:black;}
 
 
-}
 
-.me {
-  text-align: center;
-}
