@@ -1,22 +1,26 @@
 /* Add a black background color to the top navigation */
 
-h1 { font-family: 'Flamer', sans-serif;
+h1 { text-align: center; font-family: 'Flamer', sans-serif;
 font-size: 60px; 
-color: #FF13BA;}
+color: #FF13BA;
+mix-blend-mode: difference;
+animation: ColorChangeagain  1s infinite alternate;}
 
-body { text-align: center; 
+body { 
 background-color: #7D00FF;
 font-family: aktiv-grotesk-extended,sans-serif;
 font-weight: 700;
 font-style: normal;
 font-size: 20px; 
+padding-left: 50px;
+padding-right: 50px;
 text-decoration-color: #FF13BA;}
 p { padding-right: 70px;
   padding-left:70px;
   font-family: aktiv-grotesk-extended,sans-serif;
   font-weight: 200;
   font-style: normal;
-color: black;}
+color: white;}
 a:link {
   font-family: aktiv-grotesk-extended,sans-serif;
   font-weight: 700;
@@ -24,33 +28,31 @@ a:link {
   color:#FF96D6; 
   color: #FF13BA;
   text-decoration: none;
-  font-size: 20px;
-  animation: ColorChange 2s infinite alternate;
+  font-size: 50px;
+  animation: ColorChange 5s infinite alternate;
 
 }
 
-/* visited link */
-a:visited {
-  color: #FF13BA;
-}
 
 /* mouse over link */
-a:hover {
-  color: hotpink;
+
+
+
+
+
+@keyframes ColorChangeagain {
+  from { color: #FF13BA;
+    transform: rotate(2deg);
+    
 }
 
-/* selected link */
-a:active {
-  color: blue;
-}
-.color1{ color: blue; }
-.color1:hover {
-	color: white;
-}
 
-.right {
-	float: right;
-}
+  to {
+   color: red;
+       transform: rotate(-2deg);
+
+  }
+} 
 
 @keyframes ColorChange {
   from { color: #FF13BA
@@ -65,9 +67,7 @@ a:active {
 } 
 
 
-
-.button {
-
+button {
   background-color: #CBFF00;
   border: none;
   color: black;
@@ -81,11 +81,11 @@ a:active {
   font-weight: 700;
   font-style: normal;
   font-size: 20px;
-}
+align-content: center;}
 
 
 
-.button:hover {
+button:hover {
   
   background-color:  #FF7600;
   color: white;
@@ -102,55 +102,91 @@ a:active {
 }
 
 
-.button:clicked {
-  
-  background-color:  blue;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  font-family: aktiv-grotesk-extended,sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 20px;
-}
+
 .one {
   animation: letsgo  alternate-reverse 10s;
-animation-timing-function: cubic-bezier(0.25,0.1,0.25,1);}
 }
+
+
 
 .two {
   animation: letsgoagain  alternate-reverse 10s;
+  float: right;
+      animation-delay: 1s;
+
+
 }
 
 .three {
 animation: letsgo  alternate-reverse 10s;
-    animation-delay: 1s;
+    animation-delay: 2s;
 }
 
 
 .four {
   animation: letsgoagain  alternate-reverse 10s;
-      animation-delay: s;
+      animation-delay: 3s;
+      float: right;
+
 
 }
 
 .five{
   animation: letsgo  alternate-reverse 10s;
-      animation-delay: 2s;
+      animation-delay: 4s;
 animation-timing-function: ease-out;
 
 }
 
 .six{
   animation: letsgoagain  alternate-reverse 10s;
-      animation-delay: 3s;
+      animation-delay: 5s;
+animation-timing-function: ease-out;
+float: right;
+
+
+}
+
+.seven{
+  animation: letsgo  alternate-reverse 10s;
+      animation-delay: 6s;
 animation-timing-function: ease-out;
 
 }
+
+.eight{
+  animation: letsgoagain  alternate-reverse 10s;
+      animation-delay: 7s;
+animation-timing-function: ease-out;
+float: right;
+
+
+}
+
+.nine{
+  animation: letsgo alternate-reverse 10s;
+      animation-delay: 8s;
+animation-timing-function: ease-out;
+
+}
+.ten{
+  animation: letsgoagain alternate-reverse 10s;
+      animation-delay: 9s;
+animation-timing-function: ease-out;
+float: right;
+
+}
+h3
+{text-align:center; font-family: aktiv-grotesk-extended,sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color:#FF96D6; 
+  color: #FF13BA;
+  text-decoration: none;
+  font-size: 20px;cursor:pointer;}
+div.content{background:blue; width:50%; margin:0 auto;}
+
+
 @keyframes letsgo {
   from { transform: translateY(-300px);
 
@@ -182,10 +218,10 @@ transform: rotate(-50deg);
     
   }
 
-  25%{ transform: translateX(-100px);
+  25%{ transform: translateX(-200px);
    transform: rotate(20deg); }
 
-  50% {  transform: translateY(100px); 
+  50% {  transform: translateY(-200px); 
 
 transform: rotate(50deg);
 
@@ -193,12 +229,39 @@ transform: rotate(50deg);
 75% {transform: translateY(100px)
   transform: rotate(70deg);
 }
-  to {transform: translateX(-0px);
-    transform: rotate(0deg);
+  to {transform: translateX(20px);
+    transform: rotate(180deg);
   }
 } 
 
+@keyframes hovering {
+  from { transform: translateY(100px);
+
+    
+  }
+
+  25%{ transform: translateX(-200px);
+   transform: rotate(20deg); }
+
+  50% {  transform: translateY(-200px); 
+
+transform: rotate(50deg);
+
+  }
+75% {transform: translateY(100px)
+  transform: rotate(70deg);
+}
+  to {transform: translateX(20px);
+    transform: rotate(180deg);
+  }
+} 
+
+.one:hover {
+color:black;}
 
 
+}
 
-
+.me {
+  text-align: center;
+}
