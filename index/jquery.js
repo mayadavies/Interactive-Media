@@ -49,5 +49,9 @@ function myFunction2() {
   document.getElementById("demo").innerHTML = "God, I really hope I pass this class.";
 }
 
-		
+function myFunction3() {
+  document.getElementById("demo").innerHTML = "< / endOfCourse>";
+}
+
+
 
