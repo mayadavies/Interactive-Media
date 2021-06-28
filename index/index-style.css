@@ -3,7 +3,6 @@
 h1 { text-align: center; font-family: 'Flamer', sans-serif;
 font-size: 60px; 
 color: #FF13BA;
-mix-blend-mode: difference;
 animation: ColorChangeagain  1s infinite alternate;}
 
 body { 
@@ -28,7 +27,7 @@ a:link {
   color:#FF96D6; 
   color: #FF13BA;
   text-decoration: none;
-  font-size: 60px;
+  font-size: 50px;
   animation: ColorChange 5s infinite alternate;
 
 }
@@ -51,7 +50,8 @@ h2 {
 
 
   to {
-   color: red;
+   color: #CBFF00;
+
        transform: rotate(-2deg);
 
   }
@@ -61,11 +61,16 @@ h2 {
   from { color: #FF13BA
     
   }
-50% { color: white;
+
+  25%{ color: #FF7600
+
+  }
+50% { color: #CBFF00;
 
 }
-  to {
-   color: #FF7600
+75%{ color: white; }
+  to {color: black;
+  
   }
 } 
 

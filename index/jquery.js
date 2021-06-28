@@ -14,7 +14,7 @@ Abstract website tutorial
  var white ="#white"
 
 //declaring color palette in an array
- var colorPalette = [green,purple,lightpink,orange,white,purple];
+ var colorPalette = [green,purple,lightpink,orange,,black];
 
 /*
 console.log(Math.random()); //Math.random creates a value between 0-1 (always a decimal)
